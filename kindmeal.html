@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: whitesmoke;
+        }
+        #nav2{
+            margin-top: 30px;
+        }
+        #nav1{
+            background-color: green;
+            text-align: center;
+            padding: 10px;
+        }
+        a{
+            color: white;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 100;
+            font-size: 150%;
+            margin: 20px;
+            text-decoration: none;
+            margin-left: 40px;
+        }
+        img{
+            margin-left: 20px;
+        }
+        .b{
+            display: flex;
+            padding-left: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .b>div>h3{
+            padding-left: 30px;
+            margin-top: 30px;
+        }
+        .c{
+            display: flex;
+            margin-left: 200px;
+            margin-bottom: 10px;
+        }
+        .d{
+            display: flex;
+            margin-left: 200px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .top{
+            display: flex;
+        }
+        .e1 > a{
+            color: gray;
+            margin-left: 280px;
+            font-size: 18px;
+            padding: 5px;
+        }
+       .e > nav{
+           text-decoration: none;
+           margin-left: 150px;
+           padding: 5px;
+       }
+       .e > nav a{
+        margin-left: 30px;
+        color: blue;
+        font-weight: bold;
+        font-size: 16px;
+
+       }
+       .top2{
+            display: flex;
+            margin-top: 40px;
+        }
+        .g2 > a{
+            color: gray;
+            margin-left: 280px;
+            font-size: 18px;
+            padding: 5px;
+            margin-top: 50px;
+        }
+       .g1 > nav{
+           text-decoration: none;
+           margin-left: 150px;
+           padding: 5px;
+       }
+       .g1 > nav a{
+        margin-left: 30px;
+        color: blue;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 50px;
+       }
+       .f{
+           display: flex;
+           margin-left: 200px;
+        
+           
+       }
+       .f>div>h5{
+           color: gray;
+           padding-left: 15px;
+       }
+       .g{
+           display: flex;
+           margin-left: 200px;
+           
+           
+       }
+       .g>div>h5{
+           color: gray;
+           padding-left: 15px;
+       }
+       .g>div>p{
+           color: gray;
+           text-align: center;
+           margin-top: -15px;
+           font-size: 18px;
+       }
+       .top3{
+            display: flex;
+            margin-top: 40px;
+        }
+        .i1 > a{
+            color: gray;
+            margin-left: 280px;
+            font-size: 18px;
+            padding: 5px;
+        }
+       .i2 > nav{
+           text-decoration: none;
+           margin-left: 150px;
+           padding: 5px;
+       }
+       .i2 > nav a{
+        margin-left: 30px;
+        color: blue;
+        font-weight: bold;
+        font-size: 16px;
+       }
+       .i3{
+           display: flex;
+           margin-left: 200px;
+        
+           
+       }
+       .i3>div>h5{
+           color: gray;
+           padding-left: 15px;
+       }
+       .top4{
+            display: flex;
+            margin-top: 40px;
+        }
+        .j1 > a{
+            color: gray;
+            margin-left: 280px;
+            font-size: 18px;
+            padding: 5px;
+        }
+       .j2 > nav{
+           text-decoration: none;
+           margin-left: 150px;
+           padding: 5px;
+       }
+       .j2 > nav a{
+        margin-left: 30px;
+        color: blue;
+        font-weight: bold;
+        font-size: 16px;
+       }
+       .j3{
+           display: flex;
+           margin-left: 200px;   
+       }
+       .j3>div>h5{
+           color: gray;
+           padding-left: 15px;
+       }
+       .container{
+           background-color: white;
+           margin-top: 50px;
+       }
+       .container>h1{
+           text-align: center;
+           color: grey;
+       }
+       .container2{
+           display: flex;
+       }
+       .container2 > div h4{
+           margin-left: 480px;
+           color: grey;
+       }
+      p{
+          text-align: center;
+          font-size: 30px;
+          color: grey;
+          margin-top: 40px;
+      }
+      .container3{
+          display: flex;
+          margin-top: 80px;
+          margin-left: 400px;
+          
+      }
+      .container3>div{
+          width: 260px;
+         
+          padding-left:20px;
+      }
+      .container3 > div >h4{
+          padding-left: 10px;
+      }
+      .container3>div>p{
+          font-size: 18px;
+          margin-top: -15px;
+          margin-left: -3px;
+      }
+      #p1{
+          text-align: center;
+          margin-top: 40px;
+          color: grey;
+          margin-left: 300px;
+          margin-right: 100px;
+      }
+      .joinKindmeal{
+          background-color: red;
+          width: 500px;
+          height: 120px;
+          margin-left: 38%;
+          margin-top: 60px;
+      }
+      .joinKindmeal>h1{
+          color: white;
+          padding-top: 10px;
+          text-align: center;
+        }
+        .joinKindmeal>p{
+            margin-top: -10px;
+            color: white;
+        }
+        #p2{
+            color: grey;
+            margin-top: 60px;
+            text-align: center;
+        }
+        .container4{
+            text-align: center;
+        }
+        .container5{
+            background-color: whitesmoke;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .container6{
+            display: flex;
+            background-color: green;
+            height: 400px;
+            color: white;
+            padding-left: 110px;
+        }
+        .container6>div{
+            width:290px;
+            height: 300px;
+            font-size: 10px;
+        }
+        .container6>div>h3{
+            padding-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="b">
+      <div>
+          <img src="https://www.kindmeal.my/images/logo-kindmeal.png"/>
+      </div>
+      <div>
+          <img src="https://www.kindmeal.my/images/follow_blog_grey.png"/>
+      </div>
+      <div>
+          <img src="https://www.kindmeal.my/images/follow_facebook_grey.png"/>
+      </div>
+      <div>
+          <img src="https://www.kindmeal.my/images/follow_twitter_grey.png"/>
+      </div>
+      <div>
+          <h3>Log in</h3>
+      </div>
+      <div>
+          <nav id="nav2">
+             <a href="#" style="background-color: blue;">Facebook</a>
+             <a href="#" style="background-color: gray;">Email</a>
+             <a href="#" style="color: black;">Sign up</a>
+          </nav>
+      </div>
+    </div>
+    <div>
+  <nav id ="nav1">
+      <a href="kindmeal.html">Home</a>
+      <a href="kindmeal.html">Meal Deals</a>
+      <a href="kindmeal.html">KindMoments</a>
+      <a href="kindmeal.html">HotPicks</a>
+      <a href="kindmeal.html">Recipes</a>
+      <a href="kindmeal.html">Directory</a>
+      <a href="kindmeal.html">Articles</a>
+      <a href="kindmeal.html" style="color: yellow;">Digi Rewards</a>
+      <a href="kindmeal.html">Help</a>
+  </nav> 
+  </div>
+  <div class="c">
+      <div>
+          <img src="https://source.unsplash.com/collection/190727/610x400"/>
+      </div>
+      <div>
+          <img src="https://source.unsplash.com/WLUHO9A_xik/410x400"/>
+      </div>
+  </div>
+  <div class="d">
+    <div><img src="https://www.kindmeal.my/photos/deal/4/469-1822-m.jpg" width="135px" height="100px" alt=""></div>
+    <div><img src="https://www.kindmeal.my/photos/deal/4/424-1404-m.jpg" width="135px" height="100px"  alt=""></div>
+    <div><img src="https://www.kindmeal.my/photos/deal/2/271-519-m.jpg" width="135px" height="100px"  alt=""></div>
+    <div><img src="https://www.kindmeal.my/photos/deal/6/617-3503-m.jpg" width="135px" height="100px"  alt=""></div>
+    <div><img src="https://www.kindmeal.my/photos/deal/6/666-4145-m.jpg" width="135px" height="100px"  alt=""></div>
+    <div><img src="https://www.kindmeal.my/photos/deal/6/698-4639-m.jpg" width="135px" height="100px"  alt=""></div>
+    <div><img src="https://www.kindmeal.my/photos/deal/6/627-3532-m.jpg" width="135px" height="100px"  alt=""></div>
+  </div>
+  <div class="top">
+      <div class="e1">
+        <a href="E:\Htmlcss assignment\kindmeal.html">Latest News and Videos</a>      
+      </div>
+   <div class="e">
+
+     <nav>
+        
+        <a href="E:\Htmlcss assignment\kindmeal.html">Save Lives with Your Blog</a>
+        <a href="E:\Htmlcss assignment\kindmeal.html">News & Articles</a>
+        <a href="E:\Htmlcss assignment\kindmeal.html">Follow Our Facebook</a>
+     </nav>
+   </div>
+  </div>
+  <div class="f">
+      <div>
+          <img src="https://scontent.fblr2-1.fna.fbcdn.net/v/t15.5256-10/p720x720/248373678_271455411560791_5311557086818922331_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=ad6a45&_nc_ohc=T5J9GfcfyB8AX8IO17G&_nc_ht=scontent.fblr2-1.fna&edm=ALdPpPkEAAAA&oh=0cef4cb90b9ae5a2375cd88dc51205ca&oe=6191D957" width="200px" height="200px"/>
+          <h5>Satisfying slicing</h5>
+        </div>
+      <div>
+          <img src="https://scontent.fblr2-1.fna.fbcdn.net/v/t15.5256-10/s720x720/158699931_182075480247795_1864811659984254098_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=ad6a45&_nc_ohc=IC9fu6xU7PQAX9wa1uX&_nc_ht=scontent.fblr2-1.fna&edm=ALdPpPkEAAAA&oh=02cabbdb2d46ce61cd7be8d667a5f26d&oe=6191E4C5" width="200px" height="200px"/>
+          <h5>Tall giraffe investigate pumpkins</h5>
+      </div>
+      <div>
+          <img src="https://scontent.fblr2-1.fna.fbcdn.net/v/t15.5256-10/p720x720/245322696_3010933229147589_8212870515553625226_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ad6a45&_nc_ohc=6KKOHqOhB_gAX9mZ8c3&_nc_ht=scontent.fblr2-1.fna&edm=ALdPpPkEAAAA&oh=91fa078d9dcc1ef063d16480bfa0f837&oe=61926BE3" width="200px" height="200px"/>
+          <h5>Oyester mushrooms</h5>
+      </div>
+      <div>
+          <img src="https://scontent.fblr2-1.fna.fbcdn.net/v/t15.5256-10/s720x720/245328966_1068740200551734_7483496007074142959_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=ad6a45&_nc_ohc=zRRvr7TDjYAAX9-6H_v&_nc_ht=scontent.fblr2-1.fna&edm=ALdPpPkEAAAA&oh=4485886aa6192f181f8154589ad6982c&oe=6192297A" width="200px" height="200px"/>
+          <h5>Baby Buffalo stuck in a tight spot</h5>
+      </div>
+      <div>
+          <img src="https://scontent.fblr2-1.fna.fbcdn.net/v/t15.5256-10/p720x720/249171807_939594516906961_6228076116337163210_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=ad6a45&_nc_ohc=AdPIogOrAX8AX9UNStY&_nc_ht=scontent.fblr2-1.fna&edm=ALdPpPkEAAAA&oh=f198c815020c614626f04f9e1210efb7&oe=619218DD" width="200px" height="200px"/>
+          <h5>10 Creatures that can survive the hottest temperature</h5>
+      </div>
+  </div>
+  <div class="top2">
+    <div class="g2">
+      <a href="E:\Htmlcss assignment\kindmeal.html">Yumilicious moments</a>      
+    </div>
+ <div class="g1">
+
+   <nav>
+      
+      <a href="E:\Htmlcss assignment\kindmeal.html">Secret Recipes </a>
+      <a href="E:\Htmlcss assignment\kindmeal.html"> Member Hot Picks</a>
+      <a href="E:\Htmlcss assignment\kindmeal.html">Photo Moments</a>
+   </nav>
+ </div>
+</div>
+  <div class="g">
+    <div>
+        <img src="https://www.kindmeal.my/photos/moment/23/23175-43015-s.jpg" width="200px" height="200px"/>
+        <h5>A Delicious KindMoment</h5>
+        <p>William21</p>
+      </div>
+    <div>
+        <img src="https://www.kindmeal.my/photos/moment/23/23170-42999-s.jpg" width="200px" height="200px"/>
+        <h5>A Delicious KindMoment</h5>
+        <p>MayNg</p>
+    </div>
+    <div>
+        <img src="https://www.kindmeal.my/photos/moment/23/23167-42989-s.jpg" width="200px" height="200px"/>
+        <h5>A Delicious KindMoment</h5>
+        <p>ChanElaine</p>
+    </div>
+    <div>
+        <img src="https://www.kindmeal.my/photos/moment/23/23162-42966-s.jpg" width="200px" height="200px"/>
+        <h5>A Delicious KindMoment</h5>
+        <p>ChinMinNg</p>
+    </div>
+    <div>
+        <img src="https://www.kindmeal.my/photos/deal/6/665-4120-s.jpg" width="200px" height="200px"/>
+        <h5>A Delicious KindMoment</h5>
+        <p>jjia83</p>
+    </div>
+</div>
+<div class="top3">
+    <div class="i1">
+      <a href="E:\Htmlcss assignment\kindmeal.html">Discover Restaurants</a>      
+    </div>
+ <div class="i2">
+
+   <nav>
+      
+      <a href="E:\Htmlcss assignment\kindmeal.html">Vegetarian Directory </a>
+      <a href="E:\Htmlcss assignment\kindmeal.html">Restaurant Menu</a>
+      <a href="E:\Htmlcss assignment\kindmeal.html"> Food Map</a>
+   </nav>
+ </div>
+</div>
+<div class="i3">
+    <div>
+        <img src="https://www.kindmeal.my/photos/item/0/490-5860-s.jpg" width="200px" height="200px"/>
+        <h5>Sweet & Sour Rice</h5>
+      </div>
+    <div>
+        <img src="https://www.kindmeal.my/photos/item/0/381-4198-s.jpg" width="200px" height="200px"/>
+        <h5>Green Tea Latte</h5>
+    </div>
+    <div>
+        <img src="https://www.kindmeal.my/photos/item/0/305-3195-s.jpg" width="200px" height="200px"/>
+        <h5>Fruit Juice</h5>
+    </div>
+    <div>
+        <img src="https://www.kindmeal.my/photos/item/0/213-2140-s.jpg" width="200px" height="200px"/>
+        <h5>Mushroom Risotto</h5>
+    </div>
+    <div>
+        <img src="https://www.kindmeal.my/photos/item/0/362-3908-s.jpg" width="200px" height="200px"/>
+        <h5>Bean Curd Barley Soup 腐竹薏米水</h5>
+    </div>
+</div>
+<div class="top4">
+    <div class="j1">
+      <a href="E:\Htmlcss assignment\kindmeal.html">Amazing Superheroes</a>      
+    </div>
+ <div class="j2">
+
+   <nav>
+      
+      <a href="E:\Htmlcss assignment\kindmeal.html">Latest Buzz </a>
+      <a href="E:\Htmlcss assignment\kindmeal.html">Lifestyle Ambassadors</a>
+      <a href="E:\Htmlcss assignment\kindmeal.html">Win Gifts!</a>
+   </nav>
+ </div>
+</div>
+<div class="j3">
+    <div>
+        <img src="https://www.kindmeal.my/photos/member/32/32656-m.jpg" width="200px" height="200px"/>
+        <h5>MichaelWong1</h5>
+      </div>
+    <div>
+        <img src="https://www.kindmeal.my/photos/member/19/19456-m.jpg" width="200px" height="200px"/>
+        <h5>William21</h5>
+    </div>
+    <div>
+        <img src="https://www.kindmeal.my/photos/member/10/10784-m.jpg" width="200px" height="200px"/>
+        <h5>EdwardLee</h5>
+    </div>
+    <div>
+        <img src="https://www.kindmeal.my/photos/member/24/24580-m.jpg" width="200px" height="200px"/>
+        <h5>ChinMinNg</h5>
+    </div>
+    <div>
+        <img src="https://www.kindmeal.my/photos/member/31/31273-m.jpg" width="200px" height="200px"/>
+        <h5>LimEwe</h5>
+    </div>
+</div>
+</header>
+<div class="container">
+        <h1>Introducing The World's 1st Meat-Free Lifestyle Platform</h1>
+        <div class="container2">
+            <div><h4>Brought to you by</h4></div>
+            <div><img src="https://www.kindmeal.my/images/logo-petfinder.png"</div>
+        </div>
+        
+</div>
+<p>Instant coupon & dining. No upfront coupon payment, booking or printing.</p>
+<div class="container3">
+    <div><img src="https://www.kindmeal.my/images/intro_deal.png"/>
+    <h4>Get Great Deals</h4>
+    <p>Show our FREE digital coupons to
+    instantly enjoy exciting deals</p>
+    </div>
+    <div><img src="https://www.kindmeal.my/images/intro_kindmoment.png"/>
+        <h4>Share KindMoments</h4>
+        <p>Spread the joy by sharing your
+        yummy dining moments</p>
+    </div>
+    <div><img src="https://www.kindmeal.my/images/intro_menu.png"/>
+        <h4>Discover Delicious Food</h4>
+        <p>Explore the latest exquisite offerings
+        and creative menus</p>
+    </div>
+    <div><img src="https://www.kindmeal.my/images/intro_friends.png"/>
+        <h4>Meet Food Lovers</h4>
+        <p>Make new,compassionate friends
+        and share great food tips</p></div>
+</div>
+<p id="p1">
+    Any restaurant or cafe can join KindMeal, vegetarian or not, as long as the deals and menu featured are meat-free.Enjoy a great meat-free dining experience. Easily save animal lives, health, environment and money now!
+</p>
+<div class="joinKindmeal">
+  <h1>Join KindMeal Now</h1>
+  <p>Your tasty journey begins here</p>
+</div>
+<div id="p2">
+    <p>As featured in</p>
+</div>
+<div class="container4">
+    <div><img src="https://www.kindmeal.my/images/media-feature2.png"/></div>
+</div>
+<div class="container5">
+   <div><img src="https://www.kindmeal.my/images/banner_whykindmeal.png" alt=""></div>
+</div>
+<div class="container6">
+<div><h3>General</h3>
+  <a href="E:\Htmlcss assignment\kindmeal.html">Home</a>
+  <br>
+  <a href="E:\Htmlcss assignment\kindmeal.html">Sign Up</a>
+  <br>
+  <a href="E:\Htmlcss assignment\kindmeal.html">Businesses / Restaurateurs</a>
+  <br>
+  <a href="E:\Htmlcss assignment\kindmeal.html">Advertising</a>
+  <br>
+  <a href="E:\Htmlcss assignment\kindmeal.html">About KindMeal.my</a>
+  <br>
+  <a href="E:\Htmlcss assignment\kindmeal.html">Help & FAQ</a>
+  <br>
+  <a href="E:\Htmlcss assignment\kindmeal.html">Terms & Conditions</a>
+  <br>
+  <a href="E:\Htmlcss assignment\kindmeal.html">Inspiring Partners</a>
+  <br>
+  <a href="E:\Htmlcss assignment\kindmeal.html">Lifestyle Ambassadors</a>
+  <br>
+  <a href="E:\Htmlcss assignment\kindmeal.html">Jobs & Careers</a>
+  <br>
+  <a href="E:\Htmlcss assignment\kindmeal.html">Contact Us</a>
+</div>
+<div><h3>Features</h3>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Meat-Free Deals</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Tasty Menus</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Kind Moments</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Meat-Free Recipes</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Member Recommendations</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Featured Restaurants</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Vegetarian & Vegan Directory</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Food Map</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Become A Superhero</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Vegan News & Vegetarian Articles</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Latest Comments</a>
+</div>
+<div>
+    <h3>Social Media</h3>
+    <a href="E:\Htmlcss assignment\kindmeal.html">KindMeal Widget</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Facebook</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Twitter</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Instagram</a>
+</div>
+<div>
+    <h3>Mobile</h3>
+    <a href="E:\Htmlcss assignment\kindmeal.html">iPhone & iPod App</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Android App</a>
+    <br>
+    <h3>Exciting Promos</h3>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Gadhimai: Ending Mass</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Free Meals</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Food Bloggers</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Uber CHIRP</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Jane Goodall Contest</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Win Digi iPhone 6</a>
+    <br>
+    <a href="v">Feed The Poor</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Win Superhero Gifts</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Win an iPad Mini 3</a>
+</div>
+<div>
+    <h3>PetFinder.my</h3>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Adopt A Pet</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Smartphone Apps</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">WAGazine</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Discussion Forum</a>
+    <br>
+    <a href="E:\Htmlcss assignment\kindmeal.html">Medical Fund</a>
+</div>
+</div>
+</body>
+</html>
